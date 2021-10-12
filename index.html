@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER MATCH</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="header">USER MATCH <span  class="total_money"></span></div>
+    <div class="container">
+        <div class="money_sec">
+            <input type="number" class="set_money" />
+            <input type="button" class="set_mony_btn" value="Add money" />
+        </div>
+        <input type="number" class="user_number" placeholder="Please Enter Some Digits"  disabled/>
+        <input type="number" class="bot_number" disabled/>
+        <input type="submit" class="search_btn" value="Check"/>
+
+    </div>
+
+    <div class="addMoney_alert">
+        <div class="add_balance">
+            <span class="cross">X</span>
+            <div class="alert">Please Add Some Money!</div>
+            <br/>
+            <div class="money_Details">You have at lest 10$ in your account!</div> 
+        </div>
+    </div>
+
+
+    <div class="result">
+        <div class="won">
+            <span class="cross_congratulation">X</span>
+            <div class="congratulation">Congratulation!!!</div>
+            <br/>
+            <br/>
+            <div class="conDetails">You have won the GRAND PRICE! Be ready to claim it.</div> 
+        </div>
+    </div>
+    
+
+    <div class="case_alert">
+        <div class="case_border">
+            <span class="case_cross">X</span>
+            <div class="close_alert">CASE HAS  CLOSED!!!</div>
+            <br/>
+            <div class="case_Details">The case recently closed. Please reload this page</div> 
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
+
